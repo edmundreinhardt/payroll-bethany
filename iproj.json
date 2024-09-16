@@ -1,4 +1,14 @@
 {
   "description": "Demo for Bethany Reinhardt",
-  "repository": "https://github.com/edmundreinhardt/payroll-bethany"
+  "repository": "https://github.com/edmundreinhardt/payroll-bethany",
+  "license": "MIT",
+  "buildCommand": "makei build",
+  "curlib": "&CURLIB",
+  "includePath": [
+    "inc"
+  ],
+  "preUsrlibl": [
+    "&PAYDTA"
+  ],
+  "compileCommand": "makei compile -f {filename}"
 }
